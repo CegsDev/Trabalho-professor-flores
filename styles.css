@@ -218,14 +218,6 @@ a:hover::after {
   overflow: hidden;
 }
 
-/* Ícone de bola flutuante nos placeholders */
-.camisa-placeholder::before {
-  content: "⚽";
-  font-size: 3rem;
-  opacity: 0.3;
-  position: absolute;
-  animation: float 3s ease-in-out infinite;
-}
 
 /* Animação de flutuação da bola */
 @keyframes float {
